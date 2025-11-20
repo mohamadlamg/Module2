@@ -12,7 +12,7 @@ from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 
 # Import your existing agent
-from Project2.module2 import agent, State
+from module2 import agent, State
 
 load_dotenv()
 

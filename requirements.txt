@@ -20,7 +20,8 @@ sentence-transformers>=2.2.0
 ragas>=0.1.0
 datasets>=2.14.0
 
-
+# Toxic Input Detection
+detoxify>=0.3.0
 
 # Environment Management
 python-dotenv>=1.0.0
