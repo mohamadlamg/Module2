@@ -323,7 +323,7 @@ def running():
         while True:
             query = input("Entrer votre question ou Stop pour quitter: ")
             query_lower = query.lower()
-            secure_input(query_lower)
+            query = secure_input(query_lower)
             
             if query_lower == 'stop':
                 print("Bye bye !👋")
